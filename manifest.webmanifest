@@ -1,0 +1,43 @@
+{
+  "name": "Zoya AI Voice Assistant",
+  "short_name": "Zoya",
+  "description": "Zoya - a sassy, witty and intelligent Indian AI voice assistant. Developed by Abhay.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#03030a",
+  "theme_color": "#03030a",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Voice Session",
+      "url": "/"
+    },
+    {
+      "name": "Open Chat",
+      "url": "/?chat=1"
+    }
+  ]
+}
