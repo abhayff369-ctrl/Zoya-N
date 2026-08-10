@@ -1,0 +1,10 @@
+- pipeline: Abhay-ai-assistant
+  name: Abhay AI ASSISTANT
+  refs:
+  - refs/heads/main
+  - refs/heads/*
+  - :default
+  fail_on_prepare_env_warning: true
+  events:
+  - type: WEBHOOK
+
